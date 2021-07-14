@@ -1,0 +1,192 @@
+tile1_1_1  layer0 cumulated bitrate: 18.591187
+tile1_1_1  layer1 cumulated bitrate: 51.991699
+tile1_1_1  layer2 cumulated bitrate: 114.653442
+
+tile1_1_2  layer0 cumulated bitrate: 28.585938
+tile1_1_2  layer1 cumulated bitrate: 79.854858
+tile1_1_2  layer2 cumulated bitrate: 171.836548
+
+tile1_1_3  layer0 cumulated bitrate: 26.416382
+tile1_1_3  layer1 cumulated bitrate: 73.627441
+tile1_1_3  layer2 cumulated bitrate: 157.447754
+
+tile1_1_4  layer0 cumulated bitrate: 11.221924
+tile1_1_4  layer1 cumulated bitrate: 30.868408
+tile1_1_4  layer2 cumulated bitrate: 66.723267
+
+tile1_2_1  layer0 cumulated bitrate: 21.214844
+tile1_2_1  layer1 cumulated bitrate: 59.967285
+tile1_2_1  layer2 cumulated bitrate: 132.031372
+
+tile1_2_2  layer0 cumulated bitrate: 34.238159
+tile1_2_2  layer1 cumulated bitrate: 97.082031
+tile1_2_2  layer2 cumulated bitrate: 209.673096
+
+tile1_2_3  layer0 cumulated bitrate: 32.845337
+tile1_2_3  layer1 cumulated bitrate: 90.773926
+tile1_2_3  layer2 cumulated bitrate: 190.726685
+
+tile1_2_4  layer0 cumulated bitrate: 15.400879
+tile1_2_4  layer1 cumulated bitrate: 41.704102
+tile1_2_4  layer2 cumulated bitrate: 87.067017
+
+tile1_3_1  layer0 cumulated bitrate: 22.731567
+tile1_3_1  layer1 cumulated bitrate: 64.350342
+tile1_3_1  layer2 cumulated bitrate: 141.603760
+
+tile1_3_2  layer0 cumulated bitrate: 32.388794
+tile1_3_2  layer1 cumulated bitrate: 91.845337
+tile1_3_2  layer2 cumulated bitrate: 198.992554
+
+tile1_3_3  layer0 cumulated bitrate: 30.633545
+tile1_3_3  layer1 cumulated bitrate: 83.626831
+tile1_3_3  layer2 cumulated bitrate: 173.785767
+
+tile1_3_4  layer0 cumulated bitrate: 16.352661
+tile1_3_4  layer1 cumulated bitrate: 43.955566
+tile1_3_4  layer2 cumulated bitrate: 90.990356
+
+tile1_4_1  layer0 cumulated bitrate: 21.370117
+tile1_4_1  layer1 cumulated bitrate: 60.255737
+tile1_4_1  layer2 cumulated bitrate: 133.034424
+
+tile1_4_2  layer0 cumulated bitrate: 24.676758
+tile1_4_2  layer1 cumulated bitrate: 68.974365
+tile1_4_2  layer2 cumulated bitrate: 148.649048
+
+tile1_4_3  layer0 cumulated bitrate: 22.030640
+tile1_4_3  layer1 cumulated bitrate: 60.742432
+tile1_4_3  layer2 cumulated bitrate: 128.956055
+
+tile1_4_4  layer0 cumulated bitrate: 12.834351
+tile1_4_4  layer1 cumulated bitrate: 34.703857
+tile1_4_4  layer2 cumulated bitrate: 73.171631
+
+tile2_1_1  layer0 cumulated bitrate: 24.678345
+tile2_1_1  layer1 cumulated bitrate: 69.197876
+tile2_1_1  layer2 cumulated bitrate: 151.331421
+
+tile2_1_2  layer0 cumulated bitrate: 26.988892
+tile2_1_2  layer1 cumulated bitrate: 74.927979
+tile2_1_2  layer2 cumulated bitrate: 160.079468
+
+tile2_1_3  layer0 cumulated bitrate: 19.763672
+tile2_1_3  layer1 cumulated bitrate: 54.270752
+tile2_1_3  layer2 cumulated bitrate: 115.162109
+
+tile2_1_4  layer0 cumulated bitrate: 13.121948
+tile2_1_4  layer1 cumulated bitrate: 35.572876
+tile2_1_4  layer2 cumulated bitrate: 75.239502
+
+tile2_2_1  layer0 cumulated bitrate: 28.756714
+tile2_2_1  layer1 cumulated bitrate: 80.020386
+tile2_2_1  layer2 cumulated bitrate: 172.010254
+
+tile2_2_2  layer0 cumulated bitrate: 45.542358
+tile2_2_2  layer1 cumulated bitrate: 125.739868
+tile2_2_2  layer2 cumulated bitrate: 262.856567
+
+tile2_2_3  layer0 cumulated bitrate: 27.695190
+tile2_2_3  layer1 cumulated bitrate: 77.126465
+tile2_2_3  layer2 cumulated bitrate: 162.490112
+
+tile2_2_4  layer0 cumulated bitrate: 14.888794
+tile2_2_4  layer1 cumulated bitrate: 40.179443
+tile2_2_4  layer2 cumulated bitrate: 83.778809
+
+tile2_3_1  layer0 cumulated bitrate: 33.112427
+tile2_3_1  layer1 cumulated bitrate: 91.707520
+tile2_3_1  layer2 cumulated bitrate: 195.075928
+
+tile2_3_2  layer0 cumulated bitrate: 51.325928
+tile2_3_2  layer1 cumulated bitrate: 142.500610
+tile2_3_2  layer2 cumulated bitrate: 299.123535
+
+tile2_3_3  layer0 cumulated bitrate: 28.322998
+tile2_3_3  layer1 cumulated bitrate: 79.060547
+tile2_3_3  layer2 cumulated bitrate: 167.024536
+
+tile2_3_4  layer0 cumulated bitrate: 14.963379
+tile2_3_4  layer1 cumulated bitrate: 40.341797
+tile2_3_4  layer2 cumulated bitrate: 83.815918
+
+tile2_4_1  layer0 cumulated bitrate: 34.100830
+tile2_4_1  layer1 cumulated bitrate: 94.167725
+tile2_4_1  layer2 cumulated bitrate: 202.004272
+
+tile2_4_2  layer0 cumulated bitrate: 31.610474
+tile2_4_2  layer1 cumulated bitrate: 86.772583
+tile2_4_2  layer2 cumulated bitrate: 183.649902
+
+tile2_4_3  layer0 cumulated bitrate: 24.651245
+tile2_4_3  layer1 cumulated bitrate: 67.401367
+tile2_4_3  layer2 cumulated bitrate: 141.677368
+
+tile2_4_4  layer0 cumulated bitrate: 17.037720
+tile2_4_4  layer1 cumulated bitrate: 45.736328
+tile2_4_4  layer2 cumulated bitrate: 95.102173
+
+tile3_1_1  layer0 cumulated bitrate: 25.392700
+tile3_1_1  layer1 cumulated bitrate: 70.244873
+tile3_1_1  layer2 cumulated bitrate: 152.160645
+
+tile3_1_2  layer0 cumulated bitrate: 28.057007
+tile3_1_2  layer1 cumulated bitrate: 78.650879
+tile3_1_2  layer2 cumulated bitrate: 169.384766
+
+tile3_1_3  layer0 cumulated bitrate: 27.865845
+tile3_1_3  layer1 cumulated bitrate: 75.946411
+tile3_1_3  layer2 cumulated bitrate: 158.486450
+
+tile3_1_4  layer0 cumulated bitrate: 18.678467
+tile3_1_4  layer1 cumulated bitrate: 49.937500
+tile3_1_4  layer2 cumulated bitrate: 103.483032
+
+tile3_2_1  layer0 cumulated bitrate: 25.484497
+tile3_2_1  layer1 cumulated bitrate: 71.072266
+tile3_2_1  layer2 cumulated bitrate: 154.668335
+
+tile3_2_2  layer0 cumulated bitrate: 32.998779
+tile3_2_2  layer1 cumulated bitrate: 93.734375
+tile3_2_2  layer2 cumulated bitrate: 202.422729
+
+tile3_2_3  layer0 cumulated bitrate: 31.480347
+tile3_2_3  layer1 cumulated bitrate: 86.154053
+tile3_2_3  layer2 cumulated bitrate: 179.639893
+
+tile3_2_4  layer0 cumulated bitrate: 18.492432
+tile3_2_4  layer1 cumulated bitrate: 48.997437
+tile3_2_4  layer2 cumulated bitrate: 100.039062
+
+tile3_3_1  layer0 cumulated bitrate: 23.739014
+tile3_3_1  layer1 cumulated bitrate: 66.286865
+tile3_3_1  layer2 cumulated bitrate: 144.435303
+
+tile3_3_2  layer0 cumulated bitrate: 34.484863
+tile3_3_2  layer1 cumulated bitrate: 97.601807
+tile3_3_2  layer2 cumulated bitrate: 209.724976
+
+tile3_3_3  layer0 cumulated bitrate: 32.014526
+tile3_3_3  layer1 cumulated bitrate: 88.288574
+tile3_3_3  layer2 cumulated bitrate: 185.132690
+
+tile3_3_4  layer0 cumulated bitrate: 17.414062
+tile3_3_4  layer1 cumulated bitrate: 46.178345
+tile3_3_4  layer2 cumulated bitrate: 94.241821
+
+tile3_4_1  layer0 cumulated bitrate: 26.378174
+tile3_4_1  layer1 cumulated bitrate: 73.006348
+tile3_4_1  layer2 cumulated bitrate: 158.001099
+
+tile3_4_2  layer0 cumulated bitrate: 31.054565
+tile3_4_2  layer1 cumulated bitrate: 87.004150
+tile3_4_2  layer2 cumulated bitrate: 186.846069
+
+tile3_4_3  layer0 cumulated bitrate: 27.235229
+tile3_4_3  layer1 cumulated bitrate: 75.146484
+tile3_4_3  layer2 cumulated bitrate: 158.695923
+
+tile3_4_4  layer0 cumulated bitrate: 15.580933
+tile3_4_4  layer1 cumulated bitrate: 42.175049
+tile3_4_4  layer2 cumulated bitrate: 88.580322
+
