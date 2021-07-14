@@ -1,0 +1,89 @@
+SVC DAS NFD EXPERIMENT PLATFORM 
+				by 吴向阳(wuxy13@mail.ustc.edu.cn)
+
+(1)实验平台简介
+本实验平台是用于进行NDN下多媒体视频的动态自适应(DAS)传输实验的实验平台，视频编码采用SVC编码格式。
+本实验平台支持多视频的流畅播放，多算法替换，以及详细的数据日志记录。
+本实验平台既支持本地单机实验，也支持联机多机实验。
+
+(2)配置与安装(ubuntu 14.04 32/64位)
+1.安装ndn-cxx
+	sudo apt-get install build-essential libcrypto++-dev libsqlite3-dev libboost-all-dev libssl-dev
+	sudo apt-get install doxygen graphviz python-sphinx python-pip
+	sudo pip install sphinxcontrib-doxylink sphinxcontrib-googleanalytics
+	./waf configure
+	./waf
+	sudo ./waf install
+	echo /usr/local/lib | sudo tee /etc/ld.so.conf.d/ndn-cxx.conf
+	sudo ldconfig
+2.安装NFD
+	sudo apt-get install pkg-config
+	sudo apt-get install libpcap-dev
+	sudo apt-get install doxygen graphviz python-sphinx
+	./waf configure
+	./waf
+	sudo ./waf install
+	sudo cp /usr/local/etc/ndn/nfd.conf.sample /usr/local/etc/ndn/nfd.conf
+3.安装libdash
+	sudo apt-get install cmake
+	sudo apt-get install git-core build-essential cmake libxml2-dev libcurl4-openssl-dev
+	git clone git://github.com/bitmovin/libdash.git
+	cd libdash/libdash
+	mkdir build
+	cd build
+	cmake ../
+	make	
+4.安装ffmpeg
+	下载yasm
+	./configure
+  	make
+  	sudo make install
+	
+	sudo apt-get install libx264-dev
+	sudo apt-get install libfaac-dev
+	sudo apt-get install libmp3lame-dev
+	sudo apt-get install libtheora-dev
+	sudo apt-get install libvorbis-dev
+	sudo apt-get install libxvidcore-dev
+	sudo apt-get install libxext-dev
+	sudo apt-get install libxfixes-dev
+	sudo apt-get install libsdl1.2-dev
+	sudo apt-get install libsdl2-dev
+
+ 	cd ffmpeg
+	./configure --enable-gpl --enable-version3 --enable-nonfree --enable-postproc  --enable-pthreads --enable-libfaac  --enable-libmp3lame --enable-libtheora --enable-libx264 --enable-libxvid --enable-x11grab --enable-libvorbis --enable-shared
+	make -j$(nproc)
+	sudo make install
+	sudo ldconfig
+5.安装consumer producer ndn-das-server
+	consumer4.1
+	./compile_svcEP.sh
+	provider
+	./compile_provider.sh
+	ndn-das-server
+	./compile_server.sh
+6.配置环境变量LD_LIBRARY_PATH
+	vim ~/.bashrc
+	export PATH="$PATH:/usr/local/bin/python"
+	LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/ndn/test/libdash-ndn/libdash/build/bin/
+	export LD_LIBRARY_PATH
+
+	source ~/.bashrc
+(3)实验平台操作说明
+1.本机实验
+	a. nfd-start
+	b. ./producer
+	c. ./svcEP 
+2.联机实验
+	A.服务端
+		a. nfd-start
+		b. ./ndn-das-server [多媒体视频存放路径]
+	B.客户端
+		a. nfd-start
+		b. nfdc regsiter /ustc udp://[服务器(路由器)ip]
+		c. ./svcEP
+(4)实验数据日志
+在log文件夹下，记录有download,buffer,play 3个模块的数据日志
+支持自定义
+(5)实验方法
+重写自适应算法继承IAdaptation,在运行时设置替换
